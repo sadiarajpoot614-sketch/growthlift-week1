@@ -1,0 +1,135 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Whole Page */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7fb;
+    color: #1f2937;
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 17px;
+    color: #dbeafe;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 18px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+nav a {
+    color: #172554;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+/* Main */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+section h2 {
+    color: #172554;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 14px;
+}
+
+/* Image */
+.journey img {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    margin: 25px auto;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+
+    header {
+        padding: 45px 15px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    main {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 25px;
+    }
+}
