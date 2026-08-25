@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>About | Sadia Rajpoot</title>
+    <title>Contact | Sadia Rajpoot</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,75 +22,78 @@
 <body>
 
     <header>
-        <h1>About Me</h1>
-        <p>Sadia Rajpoot | GrowthLift Digital Intern</p>
+        <div class="header-content">
+            <h1>Contact Me</h1>
+            <p>Sadia Rajpoot | GrowthLift Digital Intern</p>
+        </div>
     </header>
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
     </nav>
 
     <main>
 
-        <section>
-            <h2>Who I Am</h2>
+        <section class="about">
+            <h2>Get In Touch</h2>
 
             <p>
-                Hello! I'm Sadia Rajpoot, a passionate learner interested in
-                web development, artificial intelligence, and modern technology.
-            </p>
-
-            <p>
-                I enjoy learning new technologies and building projects
-                that help me improve my development skills.
+                Feel free to contact me for collaboration, projects,
+                learning opportunities, or general inquiries.
             </p>
         </section>
 
-        <section>
-            <h2>My Skills</h2>
+        <section class="about">
+            <h2>Contact Information</h2>
 
-            <div class="cards">
-
-                <div class="card">
-                    <h3>HTML5</h3>
-                    <p>
-                        Building clean and semantic web pages.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>CSS3</h3>
-                    <p>
-                        Creating attractive and responsive designs.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>Git & GitHub</h3>
-                    <p>
-                        Managing projects with version control.
-                    </p>
-                </div>
-
-            </div>
+            <p><strong>Name:</strong> Sadia Rajpoot</p>
+            <p><strong>Role:</strong> Web Developer & AI Enthusiast</p>
+            <p><strong>Internship:</strong> GrowthLift Digital Intern</p>
         </section>
 
-        <section>
-            <h2>GrowthLift Internship</h2>
+        <section class="about">
+            <h2>Send a Message</h2>
 
-            <p>
-                Through the GrowthLift Digital Internship, I am gaining
-                practical experience by building real projects and learning
-                modern development workflows.
-            </p>
+            <form class="contact-form">
+
+                <label for="name">Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Your Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="message">Your Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message"
+                    required
+                ></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
         </section>
 
     </main>
 
     <footer>
-        <p>2026 Sadia Rajpoot | GrowthLift Intern 2026</p>
+        <p>© 2026 Sadia Rajpoot | GrowthLift Digital Intern</p>
     </footer>
 
 </body>
